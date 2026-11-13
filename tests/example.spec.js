@@ -42,4 +42,7 @@ test('User Registration Form automation', async ({ page }) => {
   );
 
   await expect(page.locator('h2')).toHaveText('Submitted Details');
+
+
+  
 });
